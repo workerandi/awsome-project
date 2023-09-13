@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+      <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+     <div class="container">
+      <section class="aesthetics">
+        <div class="row">
+          <div class="col current-column">
+            <h1 id="h1">Lenexa, Ks</h1>
+            <h2>
+              August 30, 2023
+              <br />
+            </h2>
+            <h2 id= "temperature">
+              24°C
+            </h2>
+            <ul class="list-styling">
+              <li id="currentHigh">High: 86°</li>
+              <li id= "currentLow">Low: 61°</li>
+              <li id= "currentPrecipitation">Precipitation: 0%</li>
+            </ul>
+            <img id="icons" src="src/sun-regular.svg" />
+            <br />
+            <form id="inputForm">
+              <input type="text" placeholder="Change City:" id="searchBar" />
+              <br />
+              <button id="searchButton">Search</button>
+            </form>
+          </div>
+          <div class="col future-column">
+            <ul class="list-styling">
+              <li class="list-spacing">
+                Thursday,
+                <br />
+                August 31
+              </li>
+              <li class="list-spacing">
+                Friday,
+                <br />
+                September 1
+              </li>
+              <li class="list-spacing">
+                Saturday,
+                <br />
+                September 2
+              </li>
+              <li class="list-spacing">
+                Sunday,
+                <br />
+                September 3
+              </li>
+              <li class="list-spacing">
+                Monday,
+                <br />
+                September 4
+              </li>
+            </ul>
+          </div>
+          <div class="col">
+            <ul class="list-styling">
+              <li class="list-spacing">
+                High: 85° <br />
+                Low: 61°
+              </li>
+              <li class="list-spacing">
+                High: 88° <br />
+                Low: 63°
+              </li>
+              <li class="list-spacing">
+                High: 94° <br />
+                Low 67°
+              </li>
+              <li class="list-spacing">
+                High 94° <br />
+                Low:72°
+              </li>
+              <li class="list-spacing">
+                High 96° <br />
+                Low: 76°
+              </li>
+            </ul>
+          </div>
+          <div class="col">
+            <ul class="list-styling">
+              <li><img class="icon-column" src="src/sun-regular.svg" /></li>
+              <li><img class="icon-column" src="src/sun-regular.svg" /></li>
+              <li><img class="icon-column" src="src/sun-regular.svg" /></li>
+              <li><img class="icon-column" src="src/sun-regular.svg" /></li>
+              <li><img class="icon-column" src="src/sun-regular.svg" /></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
