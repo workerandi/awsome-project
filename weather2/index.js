@@ -36,6 +36,7 @@ function updatedPage(response) {
 }
 
 function changeCity(event) {
+  event.preventDefault();
   let citySearched = document.querySelector("#searchBar").value;
   let apiKey = "2d96d64425dca1d6eda00d942a281c0d";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${citySearched}&appid=${apiKey}`;
