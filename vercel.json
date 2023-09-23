@@ -1,8 +1,7 @@
 {
   "rewrites": [
     {
-      "source": "/(.*)",
-      "Destination": "/https://awsome-project-bgnow1r9l-workerandi.vercel.app"
+      "source": "/(.*)"
     }
   ]
 }
