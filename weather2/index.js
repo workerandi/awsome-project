@@ -1,4 +1,3 @@
-// Challenge 1
 function updateTime() {
   let now = new Date();
   let days = [
@@ -22,11 +21,6 @@ function updateTime() {
   let time = document.querySelector("h2");
   time.innerHTML = `${currentDay}, ${currentHour}:${currentMinute}`;
 }
-
-// Update time initially and refresh every minute
-updateTime(event);
-event.preventDefault();
-setInterval(updateTime, 60000); // Refresh every minute
 
 function updatedPage(response) {
   document.querySelector("#h1").innerHTML = response.data.name;
