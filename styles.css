@@ -13,6 +13,11 @@ input {
   background-color: #f5fff6;
   border-color: rgba(120, 240, 146, 0.9);
 }
+a {
+  color: #410077;
+  text-decoration: none;
+  font-family: fantasy;
+}
 .container {
   font-family: fantasy;
   padding: 0;
